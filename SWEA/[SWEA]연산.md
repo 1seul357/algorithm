@@ -1,6 +1,7 @@
 ```python
 '''
-deque 써야 함. 아니면 런타임 에러. bfs를 통해서 풀면 최소 count를 체크할 필요 없다. 주의할 점은 for i in range(4)를 통해 4번 반복해야 하는 건데, 저렇게 하지 않으면 에러가 발생한다. 
+deque 써야 함. 아니면 런타임 에러. bfs를 통해서 풀면 최소 count를 체크할 필요 없다. 
+주의할 점은 for i in range(4)를 통해 4번 반복해야 하는 건데, 저렇게 하지 않으면 에러가 발생한다. 
 '''
 from collections import deque
  
