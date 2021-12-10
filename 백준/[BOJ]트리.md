@@ -41,7 +41,7 @@ for i in range(len(tree)):      # 자식 노드 개수 세는 반복문
     counts[tree[i]] += 1        # 특정 노드의 자식 노드가 있으면 + 1
 
 
-ans = counts.count(0)      # 리프 노드의 개수 찾기
+ans = counts.count(0)           # 리프 노드의 개수 찾기
 
 print(ans)
 ```
