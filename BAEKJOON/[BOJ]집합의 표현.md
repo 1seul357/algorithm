@@ -11,7 +11,9 @@
 
 #### 주의사항
 
-- import sys를 작성하지 않으면 시간초과 발생
+> import sys 작성하지 않으면 시간초과 발생
+
+
 
 ```python
 import sys
