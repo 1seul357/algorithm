@@ -12,6 +12,9 @@
 2. 걸리는 시간을 입력받고, 오름차순으로 정렬한다.
 3. 반복문을 돌면서 걸리는 시간의 합계를 더해준다.
 
+</br>
+
+**소스코드**
 ```python
 N = int(input())
 time = list(map(int, input().split()))
