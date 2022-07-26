@@ -32,10 +32,9 @@ for i in range(N):
     else:
         ans[file_name] = 1
 
-answer = list(ans.keys())
-answer.sort()
+answer = sorted(ans.keys())
 
-for i in answer:
-    print(i, ans[i])
+for i in range(len(answer)):
+    print(answer[i], ans[answer[i]])
 ```
 
