@@ -20,11 +20,16 @@
 - 숫자인지 확인하고, 숫자이면 바로 `answer` 에 추가
 - 문자라면 `word`로 합치고, 딕셔너리에 있는지 확인해서 `answer`에 숫자로 추가
 
+</br>
+
+</br>
+
 ### 소스코드
 
 ```python
 number = {
-    "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5", 			"six": "6", "seven": "7", "eight": "8", "nine": "9"
+    "zero": "0", "one": "1", "two": "2", "three": "3", "four": "4", "five": "5", 			
+    "six": "6", "seven": "7", "eight": "8", "nine": "9"
 }
 
 
